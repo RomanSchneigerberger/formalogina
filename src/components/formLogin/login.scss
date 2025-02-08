@@ -1,0 +1,78 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, #35375793, #2ed3f042);
+
+    border-radius: 10px;
+    width: 700px;
+    height: 350px;
+    margin-top: 50px;
+
+    Form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+}
+
+button {
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #ffffff !important;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 2px ridge #000000;
+    background: #9e220a;
+    background: linear-gradient(to top, #072e10, #6ffa6a);
+    margin-top: 20px;
+}
+
+button:hover {
+    color: #000000 !important;
+    background: linear-gradient(to top, #6ffa6a, #072e10);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background: #45a049;
+}

@@ -1,0 +1,17 @@
+.btn {
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #ffffff !important;
+    padding: 50px 220px;
+    border-radius: 10px;
+    border: 2px ridge #0a0a0a;
+    background: #9e220a;
+    background: linear-gradient(to top, #072e10, #6ffa6a);
+    font-size: 25px;
+
+}
+
+.btn:hover {
+    color: #000000 !important;
+    background: linear-gradient(to top, #6ffa6a, #072e10);
+}
